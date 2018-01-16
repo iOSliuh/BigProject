@@ -13,6 +13,7 @@
 		D9F7008E200E3D3700982111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F7008D200E3D3700982111 /* Assets.xcassets */; };
 		D9F70091200E3D3700982111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F7008F200E3D3700982111 /* LaunchScreen.storyboard */; };
 		D9F70094200E3D3700982111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F70093200E3D3700982111 /* main.m */; };
+		D9F7009C200E3F1300982111 /* Model.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F7009B200E3F1300982111 /* Model.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D9F70090200E3D3700982111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F70092200E3D3700982111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9F70093200E3D3700982111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9F7009A200E3F1300982111 /* Model.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Model.h; sourceTree = "<group>"; };
+		D9F7009B200E3F1300982111 /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				D9F70084200E3D3700982111 /* AppDelegate.h */,
 				D9F70085200E3D3700982111 /* AppDelegate.m */,
+				D9F7009A200E3F1300982111 /* Model.h */,
+				D9F7009B200E3F1300982111 /* Model.m */,
 				D9F70087200E3D3700982111 /* ViewController.h */,
 				D9F70088200E3D3700982111 /* ViewController.m */,
 				D9F7008A200E3D3700982111 /* Main.storyboard */,
@@ -145,6 +150,7 @@
 				D9F70089200E3D3700982111 /* ViewController.m in Sources */,
 				D9F70094200E3D3700982111 /* main.m in Sources */,
 				D9F70086200E3D3700982111 /* AppDelegate.m in Sources */,
+				D9F7009C200E3F1300982111 /* Model.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
